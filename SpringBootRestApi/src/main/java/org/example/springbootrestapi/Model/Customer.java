@@ -9,16 +9,12 @@ public class Customer {
 
     private Long id;
 
-    @NotBlank(message = "Name is required")
     private String name;
 
-    @Email(message = "Email must be valid")
     private String email;
 
-    @Min(value = 18, message = "Age must be at least 18")
     private int age;
 
-    @NotBlank(message = "Address is required")
     private String address;
 
     public Customer() {

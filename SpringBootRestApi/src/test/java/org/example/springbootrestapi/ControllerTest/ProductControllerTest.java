@@ -81,7 +81,7 @@ public class ProductControllerTest {
 
         String requestBody = """
                 {
-                    "name": "Laptop",
+                    "name": "Laptop"
                     "price": 1400.0,
                     "quantity": 3
                 }
